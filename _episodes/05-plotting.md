@@ -27,7 +27,7 @@ One of the most common ways to present scientific data is through graphs or plot
 > distances = numpy.genfromtxt(fname=distance_file, delimiter=',', dtype='unicode')
 > headers = distances[0]
 > data = distances[1:]
-> data = data.astype(numpy.float)
+> data = data.astype(float)
 > ~~~
 > {: .language-python}
 {: .callout}
